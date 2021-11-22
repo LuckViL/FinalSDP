@@ -1,4 +1,6 @@
 import Facade.Reception;
+import Strategy.Room;
+import Strategy.RoomNo1;
 
 import java.util.Scanner;
 
@@ -7,6 +9,10 @@ public class Main {
     public static void main(String[] args){
         Reception reception = new Reception();
         Scanner sc = new Scanner(System.in);
+
+        Room room = new RoomNo1();
+        room.aboutRoomType();
+        room.priceCount();
 
         for(int i = 0; i < 20; i++){
             System.out.println("1.\n" +
