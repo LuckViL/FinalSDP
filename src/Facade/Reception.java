@@ -17,4 +17,8 @@ public class Reception {
             System.out.println("Client " + client.getName() + " successfully deleted!");
         }
     }
+
+    public void createRooms(){
+
+    }
 }

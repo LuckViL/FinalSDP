@@ -1,4 +1,3 @@
-
 import Facade.Reception;
 
 import java.util.Scanner;

@@ -13,4 +13,8 @@ public abstract class Room {
         this.roomType.roomType();
         this.roomType.price();
     }
+
+    public IRoomType getRoomType() {
+        return roomType;
+    }
 }
