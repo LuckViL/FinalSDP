@@ -1,9 +1,9 @@
 package Strategy;
 
-public class FoodRoom implements IRoomType{
+public class FoodRoom implements IFoodRoomType {
     @Override
     public void roomType() {
-        System.out.println("Food room added. Price for hour: 400 KZT");
+        System.out.println("Food room price for hour: 400 KZT");
     }
 
     @Override

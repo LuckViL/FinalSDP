@@ -1,6 +1,6 @@
 package Strategy;
 
-public interface IRoomType {
+public interface IPSRoomType {
     void roomType();
     int price();
 }

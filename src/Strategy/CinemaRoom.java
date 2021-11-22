@@ -1,9 +1,9 @@
 package Strategy;
 
-public class CinemaRoom implements IRoomType{
+public class CinemaRoom implements ICinemaRoomType {
     @Override
     public void roomType() {
-        System.out.println("Cinema room added. Price for hour: 1000 KZT");
+        System.out.println("Cinema room with free drinks. Price for hour: 1000 KZT");
     }
 
     @Override

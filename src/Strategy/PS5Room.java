@@ -1,9 +1,9 @@
 package Strategy;
 
-public class PS5Room implements IRoomType{
+public class PS5Room implements IPSRoomType {
     @Override
     public void roomType() {
-        System.out.println("PS room added. Price for hour: 500 KZT");
+        System.out.println("PS 5 room price for hour: 500 KZT");
     }
 
     @Override

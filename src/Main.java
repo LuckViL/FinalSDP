@@ -11,8 +11,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         Room room = new RoomNo1();
-        room.aboutRoomType();
-        room.priceCount();
+        room.aboutFoodRoomType();
+        room.aboutGameRoomType();
+        room.aboutPSRoomType();
+        room.aboutCinemaRoomType();
 
         for(int i = 0; i < 20; i++){
             System.out.println("1.\n" +
