@@ -1,6 +1,6 @@
 package Bridge;
 
-public class Cola implements com.company.bridge.Drinks {
+public class Cola implements Drinks {
     @Override
     public void drinkStuff() {
     }

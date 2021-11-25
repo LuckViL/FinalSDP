@@ -1,6 +1,6 @@
 package Bridge;
 
-public class FantaOrder extends com.company.bridge.AdditionalOrder {
+public class FantaOrder extends AdditionalOrder {
 
     @Override
     public String additionalOrderInfo() {
